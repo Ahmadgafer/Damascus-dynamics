@@ -70,7 +70,7 @@
 	</Item>
 	<Item Name="Damascus-Dynamics" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Damascus-Dynamics</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.20</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;TARGET_TYPE,RT;FPGAPersonality,myRIO_FP_Default;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -79,6 +79,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -224,9 +225,9 @@ AddOutputFilter chunkFilter
 			<Item Name="vision.vi" Type="VI" URL="../vision/vision.vi"/>
 		</Item>
 		<Item Name="base sensor interrupt.vi" Type="VI" URL="../base sensor interrupt.vi"/>
-		<Item Name="collect dataset.vi" Type="VI" URL="../collect dataset.vi"/>
 		<Item Name="detect cube 3.vi" Type="VI" URL="../vision/detect cube 3.vi"/>
 		<Item Name="Enable Controllers.vi" Type="VI" URL="../Enable Controllers.vi"/>
+		<Item Name="collect dataset.vi" Type="VI" URL="../collect dataset.vi"/>
 		<Item Name="get piece from cube  2.vi" Type="VI" URL="../get piece from cube  2.vi"/>
 		<Item Name="get piece from cube  3.vi" Type="VI" URL="../get piece from cube  3.vi"/>
 		<Item Name="get piece from cube.vi" Type="VI" URL="../get piece from cube.vi"/>
@@ -234,6 +235,7 @@ AddOutputFilter chunkFilter
 		<Item Name="majd.vi" Type="VI" URL="../majd.vi"/>
 		<Item Name="overlay cube numbers.vi" Type="VI" URL="../vision/overlay cube numbers.vi"/>
 		<Item Name="readArmEncoders.vi" Type="VI" URL="../readArmEncoders.vi"/>
+		<Item Name="set controllers.vi" Type="VI" URL="../set controllers.vi"/>
 		<Item Name="temp.vi" Type="VI" URL="../temp.vi"/>
 		<Item Name="test base sensor.vi" Type="VI" URL="../test base sensor.vi"/>
 		<Item Name="test grip.vi" Type="VI" URL="../test grip.vi"/>
@@ -524,6 +526,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="TETRIX_Set_Servo_Position_myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/Pitsco Education/TETRIX Expansion Controller Toolkit for myRIO/Servo_Expansion_Controller/TETRIX_Set_Servo_Position_myRIO.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
