@@ -172,6 +172,7 @@ AddOutputFilter chunkFilter
 			<Item Name="setWristAngle.vi" Type="VI" URL="../setWristAngle.vi"/>
 			<Item Name="stackCameraMode.vi" Type="VI" URL="../stackCameraMode.vi"/>
 			<Item Name="reset arm.vi" Type="VI" URL="../debug/reset arm.vi"/>
+			<Item Name="push.vi" Type="VI" URL="../push.vi"/>
 		</Item>
 		<Item Name="final" Type="Folder">
 			<Item Name="final.vi" Type="VI" URL="../final.vi"/>
@@ -190,6 +191,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Move constant speed.vi" Type="VI" URL="../Move constant speed.vi"/>
 			<Item Name="stop robot move.vi" Type="VI" URL="../stop robot move.vi"/>
 			<Item Name="fix to the line.vi" Type="VI" URL="../fix to the line.vi"/>
+			<Item Name="back to base.vi" Type="VI" URL="../back to base.vi"/>
 		</Item>
 		<Item Name="take piece" Type="Folder">
 			<Item Name="take from cube.vi" Type="VI" URL="../vision/take from cube.vi"/>
@@ -235,6 +237,7 @@ AddOutputFilter chunkFilter
 		<Item Name="testCameraStack.vi" Type="VI" URL="../testCameraStack.vi"/>
 		<Item Name="vision info 2.vi" Type="VI" URL="../vision/vision info 2.vi"/>
 		<Item Name="watch battery.vi" Type="VI" URL="../watch battery.vi"/>
+		<Item Name="test place in stack.vi" Type="VI" URL="../test place in stack.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -474,7 +477,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="move shoulder from initializatiion.vi" Type="VI" URL="../debug/move shoulder from initializatiion.vi"/>
 			<Item Name="init stack.vi" Type="VI" URL="../Moving VI/init stack.vi"/>
 			<Item Name="constant speed using encoder.vi" Type="VI" URL="../constant speed using encoder.vi"/>
 		</Item>
