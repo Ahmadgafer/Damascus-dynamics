@@ -179,6 +179,8 @@ AddOutputFilter chunkFilter
 			<Item Name="place in stack first row.vi" Type="VI" URL="../debug/place in stack first row.vi"/>
 			<Item Name="score cube.vi" Type="VI" URL="../debug/score cube.vi"/>
 			<Item Name="score one.vi" Type="VI" URL="../debug/score one.vi"/>
+			<Item Name="place in stack second row.vi" Type="VI" URL="../place in stack second row.vi"/>
+			<Item Name="place in stack third row.vi" Type="VI" URL="../place in stack third row.vi"/>
 		</Item>
 		<Item Name="Move Robot" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
