@@ -179,8 +179,6 @@ AddOutputFilter chunkFilter
 			<Item Name="place in stack first row.vi" Type="VI" URL="../debug/place in stack first row.vi"/>
 			<Item Name="score cube.vi" Type="VI" URL="../debug/score cube.vi"/>
 			<Item Name="score one.vi" Type="VI" URL="../debug/score one.vi"/>
-			<Item Name="place in stack second row.vi" Type="VI" URL="../place in stack second row.vi"/>
-			<Item Name="place in stack third row.vi" Type="VI" URL="../place in stack third row.vi"/>
 		</Item>
 		<Item Name="Move Robot" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -240,6 +238,9 @@ AddOutputFilter chunkFilter
 		<Item Name="vision info 2.vi" Type="VI" URL="../vision/vision info 2.vi"/>
 		<Item Name="watch battery.vi" Type="VI" URL="../watch battery.vi"/>
 		<Item Name="test place in stack.vi" Type="VI" URL="../test place in stack.vi"/>
+		<Item Name="detect stack cube.vi" Type="VI" URL="../vision/detect stack cube.vi"/>
+		<Item Name="get cube parameters.vi" Type="VI" URL="../vision/get cube parameters.vi"/>
+		<Item Name="get stack parameters.vi" Type="VI" URL="../get stack parameters.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -481,6 +482,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="init stack.vi" Type="VI" URL="../Moving VI/init stack.vi"/>
 			<Item Name="constant speed using encoder.vi" Type="VI" URL="../constant speed using encoder.vi"/>
+			<Item Name="place in stack third row.vi" Type="VI" URL="../place in stack third row.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="final score cube LR" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
