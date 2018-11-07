@@ -237,6 +237,13 @@ AddOutputFilter chunkFilter
 		<Item Name="detect stack cube.vi" Type="VI" URL="../vision/detect stack cube.vi"/>
 		<Item Name="get cube parameters.vi" Type="VI" URL="../vision/get cube parameters.vi"/>
 		<Item Name="get stack parameters.vi" Type="VI" URL="../get stack parameters.vi"/>
+		<Item Name="floor types for Cube round.vi" Type="VI" URL="../floor types for Cube round.vi"/>
+		<Item Name="get piece from region 1.vi" Type="VI" URL="../get piece from region 1.vi"/>
+		<Item Name="get piece from line 1.vi" Type="VI" URL="../get piece from line 1.vi"/>
+		<Item Name="get piece from region 2.vi" Type="VI" URL="../get piece from region 2.vi"/>
+		<Item Name="get piece from region 3.vi" Type="VI" URL="../get piece from region 3.vi"/>
+		<Item Name="select region to get floor piece.vi" Type="VI" URL="../select region to get floor piece.vi"/>
+		<Item Name="get piece from delivery.vi" Type="VI" URL="../get piece from delivery.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
