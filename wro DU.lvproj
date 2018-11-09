@@ -179,6 +179,7 @@ AddOutputFilter chunkFilter
 			<Item Name="place in stack first row.vi" Type="VI" URL="../debug/place in stack first row.vi"/>
 			<Item Name="score cube.vi" Type="VI" URL="../debug/score cube.vi"/>
 			<Item Name="score one.vi" Type="VI" URL="../debug/score one.vi"/>
+			<Item Name="qualification round.vi" Type="VI" URL="../qualification round.vi"/>
 		</Item>
 		<Item Name="Move Robot" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -236,7 +237,7 @@ AddOutputFilter chunkFilter
 		<Item Name="test place in stack.vi" Type="VI" URL="../test place in stack.vi"/>
 		<Item Name="detect stack cube.vi" Type="VI" URL="../vision/detect stack cube.vi"/>
 		<Item Name="get cube parameters.vi" Type="VI" URL="../vision/get cube parameters.vi"/>
-		<Item Name="get stack parameters.vi" Type="VI" URL="../get stack parameters.vi"/>
+		<Item Name="get stack parameters for cube round.vi" Type="VI" URL="../get stack parameters for cube round.vi"/>
 		<Item Name="floor types for Cube round.vi" Type="VI" URL="../floor types for Cube round.vi"/>
 		<Item Name="get piece from region 1.vi" Type="VI" URL="../get piece from region 1.vi"/>
 		<Item Name="get piece from line 1.vi" Type="VI" URL="../get piece from line 1.vi"/>
@@ -244,6 +245,9 @@ AddOutputFilter chunkFilter
 		<Item Name="get piece from region 3.vi" Type="VI" URL="../get piece from region 3.vi"/>
 		<Item Name="select region to get floor piece.vi" Type="VI" URL="../select region to get floor piece.vi"/>
 		<Item Name="get piece from delivery.vi" Type="VI" URL="../get piece from delivery.vi"/>
+		<Item Name="floor types for qualification round.vi" Type="VI" URL="../floor types for qualification round.vi"/>
+		<Item Name="get piece from line 2.vi" Type="VI" URL="../get piece from line 2.vi"/>
+		<Item Name="get stack parameters for qualification round.vi" Type="VI" URL="../get stack parameters for qualification round.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
