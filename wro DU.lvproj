@@ -222,6 +222,7 @@ AddOutputFilter chunkFilter
 			<Item Name="overlay cube numbers.vi" Type="VI" URL="../vision/overlay cube numbers.vi"/>
 			<Item Name="detect cube 3.vi" Type="VI" URL="../vision/detect cube 3.vi"/>
 			<Item Name="vision info 2.vi" Type="VI" URL="../vision/vision info 2.vi"/>
+			<Item Name="open camera.vi" Type="VI" URL="../vision/open camera.vi"/>
 		</Item>
 		<Item Name="Enable Controllers.vi" Type="VI" URL="../Enable Controllers.vi"/>
 		<Item Name="get piece from cube  2.vi" Type="VI" URL="../get piece from cube  2.vi"/>
