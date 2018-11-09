@@ -175,10 +175,8 @@ AddOutputFilter chunkFilter
 			<Item Name="push.vi" Type="VI" URL="../push.vi"/>
 		</Item>
 		<Item Name="final" Type="Folder">
-			<Item Name="final.vi" Type="VI" URL="../final.vi"/>
 			<Item Name="place in stack first row.vi" Type="VI" URL="../debug/place in stack first row.vi"/>
 			<Item Name="score cube.vi" Type="VI" URL="../debug/score cube.vi"/>
-			<Item Name="score one.vi" Type="VI" URL="../debug/score one.vi"/>
 			<Item Name="qualification round.vi" Type="VI" URL="../qualification round.vi"/>
 		</Item>
 		<Item Name="Move Robot" Type="Folder">
@@ -237,22 +235,17 @@ AddOutputFilter chunkFilter
 		<Item Name="test place in stack.vi" Type="VI" URL="../test place in stack.vi"/>
 		<Item Name="detect stack cube.vi" Type="VI" URL="../vision/detect stack cube.vi"/>
 		<Item Name="get cube parameters.vi" Type="VI" URL="../vision/get cube parameters.vi"/>
-<<<<<<< HEAD
 		<Item Name="get stack parameters for cube round.vi" Type="VI" URL="../get stack parameters for cube round.vi"/>
-		<Item Name="floor types for Cube round.vi" Type="VI" URL="../floor types for Cube round.vi"/>
-=======
-		<Item Name="get stack parameters.vi" Type="VI" URL="../get stack parameters.vi"/>
 		<Item Name="remining pieces types.vi" Type="VI" URL="../remining pieces types.vi"/>
->>>>>>> 2ca5d448c85580d625e622362b6fa952875e1f5a
 		<Item Name="get piece from region 1.vi" Type="VI" URL="../get piece from region 1.vi"/>
 		<Item Name="get piece from line 1.vi" Type="VI" URL="../get piece from line 1.vi"/>
 		<Item Name="get piece from region 2.vi" Type="VI" URL="../get piece from region 2.vi"/>
 		<Item Name="get piece from region 3.vi" Type="VI" URL="../get piece from region 3.vi"/>
 		<Item Name="Get desired piece.vi" Type="VI" URL="../Get desired piece.vi"/>
 		<Item Name="get piece from delivery.vi" Type="VI" URL="../get piece from delivery.vi"/>
-		<Item Name="floor types for qualification round.vi" Type="VI" URL="../floor types for qualification round.vi"/>
 		<Item Name="get piece from line 2.vi" Type="VI" URL="../get piece from line 2.vi"/>
 		<Item Name="get stack parameters for qualification round.vi" Type="VI" URL="../get stack parameters for qualification round.vi"/>
+		<Item Name="floor types for qualification round.vi" Type="VI" URL="../floor types for qualification round.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -617,7 +610,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{9018AA5C-2ED3-44FF-BD07-7BD7366CEA6D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Damascus-Dynamics/final/score one.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
