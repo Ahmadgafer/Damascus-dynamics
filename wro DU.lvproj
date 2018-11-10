@@ -440,6 +440,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Vision Info Type2.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Vision Info Type2.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="TETRIX_Set_Servo_Position_myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/Pitsco Education/TETRIX Expansion Controller Toolkit for myRIO/Servo_Expansion_Controller/TETRIX_Set_Servo_Position_myRIO.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -456,6 +457,7 @@ AddOutputFilter chunkFilter
 			<Item Name="init stack.vi" Type="VI" URL="../Moving VI/init stack.vi"/>
 			<Item Name="constant speed using encoder.vi" Type="VI" URL="../constant speed using encoder.vi"/>
 			<Item Name="place in stack third row.vi" Type="VI" URL="../place in stack third row.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="final score cube LR" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
