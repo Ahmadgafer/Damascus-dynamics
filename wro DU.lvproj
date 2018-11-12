@@ -223,6 +223,7 @@ AddOutputFilter chunkFilter
 			<Item Name="detect cube 3.vi" Type="VI" URL="../vision/detect cube 3.vi"/>
 			<Item Name="vision info 2.vi" Type="VI" URL="../vision/vision info 2.vi"/>
 			<Item Name="open camera.vi" Type="VI" URL="../vision/open camera.vi"/>
+			<Item Name="StackCode.vi" Type="VI" URL="../datasetStack/StackCode.vi"/>
 		</Item>
 		<Item Name="Enable Controllers.vi" Type="VI" URL="../Enable Controllers.vi"/>
 		<Item Name="get piece from cube  2.vi" Type="VI" URL="../get piece from cube  2.vi"/>
@@ -231,8 +232,8 @@ AddOutputFilter chunkFilter
 		<Item Name="set controllers.vi" Type="VI" URL="../set controllers.vi"/>
 		<Item Name="testCamera2.vi" Type="VI" URL="../testCamera2.vi"/>
 		<Item Name="testCameraFloor.vi" Type="VI" URL="../testCameraFloor.vi"/>
-		<Item Name="testCameraStack.vi" Type="VI" URL="../testCameraStack.vi"/>
 		<Item Name="watch battery.vi" Type="VI" URL="../watch battery.vi"/>
+		<Item Name="testCameraStack.vi" Type="VI" URL="../testCameraStack.vi"/>
 		<Item Name="test place in stack.vi" Type="VI" URL="../test place in stack.vi"/>
 		<Item Name="detect stack cube.vi" Type="VI" URL="../vision/detect stack cube.vi"/>
 		<Item Name="get cube parameters.vi" Type="VI" URL="../vision/get cube parameters.vi"/>
@@ -441,6 +442,7 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="TETRIX_Set_Servo_Position_myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/Pitsco Education/TETRIX Expansion Controller Toolkit for myRIO/Servo_Expansion_Controller/TETRIX_Set_Servo_Position_myRIO.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="IVA Store Shape Rectangles Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Shape Rectangles Results.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -458,6 +460,7 @@ AddOutputFilter chunkFilter
 			<Item Name="constant speed using encoder.vi" Type="VI" URL="../constant speed using encoder.vi"/>
 			<Item Name="place in stack third row.vi" Type="VI" URL="../place in stack third row.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="chooseCubeFloor.vi" Type="VI" URL="../vision/chooseCubeFloor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="final score cube LR" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
