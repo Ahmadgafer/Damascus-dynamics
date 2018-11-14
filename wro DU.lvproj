@@ -173,6 +173,7 @@ AddOutputFilter chunkFilter
 			<Item Name="stackCameraMode.vi" Type="VI" URL="../stackCameraMode.vi"/>
 			<Item Name="reset arm.vi" Type="VI" URL="../debug/reset arm.vi"/>
 			<Item Name="push.vi" Type="VI" URL="../push.vi"/>
+			<Item Name="rest arm from starting position.vi" Type="VI" URL="../rest arm from starting position.vi"/>
 		</Item>
 		<Item Name="final" Type="Folder">
 			<Item Name="place in stack first row.vi" Type="VI" URL="../debug/place in stack first row.vi"/>
@@ -191,6 +192,7 @@ AddOutputFilter chunkFilter
 			<Item Name="stop robot move.vi" Type="VI" URL="../stop robot move.vi"/>
 			<Item Name="fix to the line.vi" Type="VI" URL="../fix to the line.vi"/>
 			<Item Name="back to base.vi" Type="VI" URL="../back to base.vi"/>
+			<Item Name="run  to first line.vi" Type="VI" URL="../run  to first line.vi"/>
 		</Item>
 		<Item Name="take piece" Type="Folder">
 			<Item Name="take from cube.vi" Type="VI" URL="../vision/take from cube.vi"/>

@@ -1,6 +1,6 @@
 clc; close all; clear;
 
-imageName = 'datasetCubeSaleh';
+imageName = 'datasetFloor';
 
 I = imread(sprintf('%s.png', imageName));
 
