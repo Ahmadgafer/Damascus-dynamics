@@ -1,6 +1,6 @@
 clc; close all; clear;
 
-imageName = 'datasetFloor';
+imageName = 'datasetCube';
 
 I = imread(sprintf('%s.png', imageName));
 
@@ -8,7 +8,7 @@ I = rgb2gray(I);
 
 
 I = imgaussfilt(I,0.9);
-[centers, radii, metric]  = imfindcircles(I, [3 10], 'ObjectPolarity','dark','Method', 'TwoStage');
+[centers, radii, metric] = imfindcircles(I, [3 10], 'ObjectPolarity','dark','Method', 'TwoStage');
 
 
 goodCenters = centers;
