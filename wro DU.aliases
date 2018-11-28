@@ -1,6 +1,6 @@
 [Damascus-Dynamics]
-Damascus-Dynamics = "192.168.43.245"
+Damascus-Dynamics = "172.22.11.2"
 
 [My Computer]
-My Computer = "192.168.43.244"
+My Computer = "127.0.0.1"
 

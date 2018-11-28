@@ -1,6 +1,6 @@
 clc; close all; clear;
 
-imageName = 'datasetCube';
+imageName = 'cubelast2';
 
 I = imread(sprintf('%s.png', imageName));
 
